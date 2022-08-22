@@ -1,0 +1,13 @@
+title Kaavio Sivun avaamisesta
+
+#uusi muisiinpano lähetetään Post-pyynnöllä palvelimelle
+Selain->Palvelin: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Palvelin->Selain: 201
+
+note over Selain:
+Selaimen Javascript lisää html koodiin uuden muistiinpanon
+
+
+
+
+
